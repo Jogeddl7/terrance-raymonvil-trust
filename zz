@@ -1,0 +1,218 @@
+# HTML content for the main pages
+home_html = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terrance Raymonvil Trust - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Terrance Raymonvil Trust</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome to Terrance Raymonvil Trust</h2>
+        <p>Providing expert trust and estate planning services, including credit mortgage discharge, asset protection, and estate administration.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Terrance Raymonvil Trust. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+"""
+
+about_html = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terrance Raymonvil Trust - About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Terrance Raymonvil Trust</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>About Us</h2>
+        <p>At Terrance Raymonvil Trust, we specialize in providing top-notch services in trust and estate planning, ensuring your assets are managed and protected for generations to come.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Terrance Raymonvil Trust. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+"""
+
+services_html = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terrance Raymonvil Trust - Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Terrance Raymonvil Trust</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Our Services</h2>
+        <ul>
+            <li><strong>Trust and Estate Planning:</strong> Comprehensive solutions for asset management and estate planning.</li>
+            <li><strong>Credit Mortgage Discharge:</strong> Helping you manage and discharge mortgages effectively.</li>
+            <li><strong>Asset Protection:</strong> Strategies to safeguard your wealth and assets.</li>
+            <li><strong>Estate Administration:</strong> Expert guidance in managing and distributing estates.</li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Terrance Raymonvil Trust. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+"""
+
+contact_html = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terrance Raymonvil Trust - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Terrance Raymonvil Trust</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <p>Reach out for more information on our services or to schedule a consultation.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Terrance Raymonvil Trust. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+"""
+
+# Basic CSS file for styling
+style_css = """
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+"""
+
+# Saving files in a ZIP archive
+import zipfile
+
+# Create a ZIP file
+zip_path = '/mnt/data/terrance_raymonvil_trust_website.zip'
+with zipfile.ZipFile(zip_path, 'w') as zipf:
+    # Write HTML files
+    zipf.writestr("index.html", home_html)
+    zipf.writestr("about.html", about_html)
+    zipf.writestr("services.html", services_html)
+    zipf.writestr("contact.html", contact_html)
+    # Write CSS file
+    zipf.writestr("style.css", style_css)
+
+zip_path
